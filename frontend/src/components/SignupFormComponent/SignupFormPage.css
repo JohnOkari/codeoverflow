@@ -1,0 +1,78 @@
+
+.signup-page{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/banner.jpeg') center/cover no-repeat;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+}
+
+.codeOverflow-su{
+    text-underline-offset: 5.75px;
+    text-decoration-style: wavy;
+}
+
+h1{
+    font-size: 1.6rem;
+}
+
+#left-title{
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.right-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form{
+    width: 288.45px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.signup-svg{
+    
+    align-items: center;
+    margin-right: 10px;     
+}
+
+.signup-content{
+    color: rgb(187, 187, 187);
+}
+
+.login-button:hover{
+    background-color: #0074CC;
+}
+
+.su-label{
+    margin-bottom: 10px;
+}
+
+.su-input{
+    margin-bottom: 10px;
+    height: 32.5938px;
+}
